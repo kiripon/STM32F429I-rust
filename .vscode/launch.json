@@ -24,7 +24,7 @@
                 "target/stm32f4x.cfg"
             ],
             "postLaunchCommands" : [
-                "monitor arm semihosting enable"
+                "source .vscode/gdb-postlaunch.gdb"
             ],
             "svdFile": "${workspaceRoot}/.vscode/STM32F429.svd",
             "swoConfig": {
